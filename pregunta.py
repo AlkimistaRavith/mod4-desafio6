@@ -38,6 +38,7 @@ class Pregunta:
     def alternativas(self):
         return self._alternativas.copy()  # evitar modificación directa
 
+    #Método mostrar
     def mostrar(self):
         print(f"Enunciado: {self._enunciado}")
         if self._ayuda:

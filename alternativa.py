@@ -7,7 +7,6 @@ class Alternativa:
     @property
     def contenido(self):
         return self._contenido
-
     @contenido.setter
     def contenido(self, nuevo_contenido):
         self._contenido = nuevo_contenido
@@ -15,7 +14,6 @@ class Alternativa:
     @property
     def ayuda(self):
         return self._ayuda
-
     @ayuda.setter
     def ayuda(self, nueva_ayuda):
         self._ayuda = nueva_ayuda
